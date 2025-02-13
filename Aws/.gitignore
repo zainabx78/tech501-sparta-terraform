@@ -1,0 +1,9 @@
+# doesnt contain sensitive files
+#contains provider plugins, module cache
+#excluded to avoid bloating the repo
+.terraform/
+
+#the most important files to secure as they contain credentials
+terraform.tfstate
+terraform.tfstate.backup
+variable.tf
